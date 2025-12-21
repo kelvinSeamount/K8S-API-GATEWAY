@@ -10,7 +10,7 @@ spec:
   rules:
     - backendRefs: 
          - group: ""
-           kind: service
+           kind: Service
            name: backend
            port: 3000
            weight: 1
