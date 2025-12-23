@@ -8,6 +8,7 @@ metadata:
 spec:
   ports:
     - name: http
+      port: 3000
       targetPort: 3000
   selector:
     app: backend-2
