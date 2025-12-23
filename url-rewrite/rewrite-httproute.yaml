@@ -19,4 +19,4 @@ spec:
                 replacePrefixMatch: /replace
       backendRefs:
        - name: backend
-         port:
+         port: 3000
